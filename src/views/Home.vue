@@ -10,6 +10,8 @@
 </template>
 
 <script>
+import { ref } from 'vue'
+
 import PostList from '../components/PostList.vue'
 import getPost from '../composables/getPost'
 
